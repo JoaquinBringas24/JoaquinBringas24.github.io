@@ -1,0 +1,353 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav {
+    display: flex;
+    padding: 0px;
+    margin: 0 0 20px 0;
+    flex-flow: row;
+    justify-content: center;
+    position:static;
+    top: -70px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list {
+    list-style: None;
+    color: rgb(253, 254, 245);
+    margin: 10px 0px;
+    padding: 20px 20px;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: large;
+    background-color: black;
+    text-align: center;
+    transition: all 0.2s ease-out;
+    flex-flow: row;
+
+}
+
+
+.resume-div {
+    text-align: justify;
+    padding: 40px 20px;
+    align-items:center;
+    align-content: center;
+    display: inline-block;
+    line-height: 40px;
+    margin: 100px 70px 30px 70px;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(253, 254, 245);
+   
+}
+
+#education {
+    text-align: justify;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    line-height: 50px;
+    margin: 20px 50px 100px 50px;
+    flex-shrink: 0
+}
+
+.body-list li{
+    color: rgb(253, 254, 245);
+    font-family: Helvetica;
+    font-size: 25px;
+    text-align:center;
+    flex-flow: row;
+    display: grid;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+img {
+    max-width: 25%;
+    height: auto;
+    padding: 20px;
+    float: left;
+    flex-shrink: 1;
+    border-radius: 50%;
+    border: 3px;
+    border-color: rgb(253, 254, 245);
+    border-style: solid;
+    margin:20px 20px 20px 20px;
+    position: static;
+
+}
+
+.certificate-img {
+    max-width: 25%;
+    height: auto;
+    padding: 5px;
+    float: left;
+    flex-shrink: 1;
+    border-radius: 50%;
+    border: 3px;
+    border-color: rgb(253, 254, 245);
+    border-style: solid;
+    margin:5px;
+    position: static;
+    transition: 250ms;
+}
+
+.certificate-img:hover {
+    transform: translateY(-10px);
+}
+
+#bachelor-pic {
+    max-width: 25%;
+    height: auto;
+    padding: 20px;
+    float: left;
+    flex-shrink: 1;
+    border-radius: 50%;
+    border: 3px;
+    border-color: rgb(253, 254, 245);
+    border-style: solid;
+    margin: 70px 100px;
+    position: static;
+
+}
+
+.nav-list :hover {
+    color:rgb(42, 49, 80);
+    transition: all 0.2s ease-out;
+    z-index: 10;
+    
+
+}
+
+body {
+    background-color: rgb(18, 44, 71);
+    border-left: 17px solid rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-left: 70px;
+    padding: 20px 43px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(253, 254, 245);
+    position: static;
+    top: 17%;
+    display: flex;
+    font-family: Helvetica;
+    
+}
+
+.fixed-nav nav {
+    position: fixed;
+    display: flex;
+    margin: 50px 0%;
+    padding: 10px 0;
+    flex-flow: row wrap;
+    justify-content: center;
+    top: -75px;
+    width: 100%;
+    transition: all 1.5s 0.7s;
+    font-size: x-small;
+    z-index: 10;
+    
+
+}
+
+p {
+    color: rgb(253, 254, 245);
+    font-family: Helvetica;
+    font-size: 25px;
+    padding: 10px 10px 10px 20px;
+    
+}
+
+.university {
+    color: rgb(253, 254, 245);
+    font-family: Helvetica;
+    padding: 40px 10px;
+    font-size: 25px;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(253, 254, 245);
+    margin: 30px 20px;
+    text-align: center;
+    flex-grow: 1;
+
+}   
+
+#resume {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+
+}
+
+#sketch {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px 50px 20px;
+
+}
+
+.p5Canvas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    height: 50%;
+    border: 3px;
+    border-color: rgb(253, 254, 245);
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+#welcome {
+    font-family: 'IBM Plex Sans Condensed';
+    font-size: 100px;
+    color: white;
+    max-width: 40%;
+    margin-right: 30px;
+    font-weight: bold;
+    padding: 80px 100px;
+    line-height: 90px;
+    border: 3px;
+    border-color: rgb(253, 254, 245);
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 100px;
+
+}
+
+::-webkit-scrollbar {
+    width: 17px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: rgb(18, 44, 71);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(6, 14, 24);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(15, 36, 56);
+  }
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.experience-pics {
+    min-height: 300px;
+    max-height: 300px;
+    min-width: auto;
+    max-width: 300px;
+    padding: 10px;
+    float: left;
+    border-radius: 50%;
+    border: 3px;
+    border-color: rgb(253, 254, 245);
+    border-style: solid;
+    position: static;
+    flex-shrink: 0;
+    margin: 10px 20px;
+}
+
+.experience-div {
+    border: 3px;
+    border-color: rgb(253, 254, 245);
+    border-style: solid;
+    color: rgb(253, 254, 245);
+    font-family: Helvetica;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    line-height: 50px;
+    z-index: 1;
+    position: relative;
+
+}
+
+.experience-elements {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px;
+    font-size: 40px;
+}
+
+.certificates-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+}
+
+.certificates-list {
+    list-style: None;
+    justify-content: center;
+
+    color: rgb(253, 254, 245);
+    font-family: Helvetica;
+    font-size: 40px;
+    text-align: right;
+    line-height: 85px;
+    padding: 30px 30px 40px 0px;
+}
+
+#span-bold{
+    font-weight: bold;
+}
+
+.gallery {
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+#gallery-pic {
+    max-width: 700px;
+    flex: none;
+    border: none;
+    border-radius: 0;
+    margin: 0 90px;
+    padding: 0;
+}
+
+.rightbtn, .leftbtn {
+    width: 50px;
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    border-radius: 0;
+}
