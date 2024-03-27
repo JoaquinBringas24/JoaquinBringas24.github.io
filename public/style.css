@@ -345,7 +345,7 @@ p {
 }
 
 #gallery-pic:hover {
-    scale: 1.5;
+    max-width: 900px;
     transition-delay: 1.3s;
 }
 
