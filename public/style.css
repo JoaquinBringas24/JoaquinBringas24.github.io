@@ -344,6 +344,11 @@ p {
     padding: 0;
 }
 
+#gallery-pic:hover {
+    scale: 1.5;
+    transition-delay: 1.3s;
+}
+
 .rightbtn, .leftbtn {
     width: 50px;
     cursor: pointer;
